@@ -1,0 +1,240 @@
+
+.home_body
+{
+    background-image: url('background_image.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.home_body h1
+{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(192, 16, 10);
+}
+.home_body h2
+{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+}
+.home_body ol
+{
+    font-size:40px;
+    font-weight: bold;
+}
+
+th,td
+{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+p::selection
+{
+    color: antiquewhite;
+    background-color:black;
+}
+
+
+  #para
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 7px;
+  }
+  #table_TajMahal
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 700;
+    padding: 15px;
+    margin: inherit;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-left: 35px;
+  }
+
+
+
+.GolkondaFort_body
+{
+  background-image: url('GolkondaFort22.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.GolkondaFort_body h1
+{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+.GolkondaFort_body h2
+{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+}
+.GolkondaFort_body ol
+{
+    font-size:40px;
+    font-weight: bold;
+}
+.GolkondaFort_body p
+{
+  color : black;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0pt;
+}
+
+
+.SolongValley_body
+{
+  background-image: url('SolongValley22.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.SolongValley_body h1
+{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+.SolongValley_body h2
+{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    padding-left: 2%;
+}
+.SolongValley_body ol
+{
+    font-size:30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.SolongValley_body p
+{
+  color : black;
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 7% ;
+  padding-bottom: 5% ;
+}
+.SolongValley_body ul  li
+{
+  color:rgb(102, 10, 10);
+  margin-left: 50px;
+}
+.SolongValley_body ul
+{
+    font-size:40px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+
+.TajMahal_body
+{
+  background-image: url('TajMahal22.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.TajMahal_body h1,h2
+{
+    color: rgb(121, 7, 7);
+}
+
+.TajMahal_body h1
+{
+    font-size: 100px;
+    text-align: center;
+}
+.TajMahal_body h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.TajMahal_body ol
+{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.TajMahal_body p
+{
+  color : black;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+
+.Goa_body
+{
+  background-image: url('Goa9.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.Goa_body h1
+{
+    font-size: 100px;
+    text-align: center;
+    color: black;
+}
+.Goa_body h2
+{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.Goa_body ol
+{
+    font-size:40px;
+    font-weight: bold;
+}
+.Goa_body p
+{
+  color : black;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0pt;
+  background-color:rgb(27, 139, 173);
+  margin: 40px;
+}
+.Goa_body ol > li
+{
+  color:rgb(151, 6, 6);
+  margin-left: 50px;
+}
+
+.Goa_body ul > li
+{
+  font-size: x-large;
+  font-weight:300;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
