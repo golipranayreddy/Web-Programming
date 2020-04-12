@@ -12,15 +12,35 @@
                 font-weight: bolder;
                 font-size: xx-large;
             }
+            @media (min-width: 800px)
+            {
+              h1::before
+              {
+                content: "Famous Tourist Places in India";
+              }
+            }
+            @media (max-width: 799px)
+            {
+              h1::before
+              {
+                content: "Tourist Places";
+              }
+            }
+
+            button:hover
+            {
+              background-color: red;
+            }
+
         </style>
         
     </head>
     <body class = "home_body">
         <div>
-            <h1>Famous Tourist Places in India</h1>
+            <h1></h1>
             <h2>Places to visit in India :</h2>
             <ol>
-                <li ><a href="GolkondaFort.html" >Golkonda Fort</a></li>
+                <li ><a href="GolkondaFort.html" >Golconda Fort</a></li>
                 <li><a href="TajMahal.html" >Taj Mahal</a></li>
                 <li><a href="SolongValley.html" >Solong Valley</a></li>
                 <li><a href="Goa.html" >North Goa</a></li>
@@ -28,8 +48,8 @@
             <h3>Was the information helpful !</h2>
 
             <form>
-                <input type="text" placeholder="Give your feedback"  size="50px">
-                <button>Submit</button>
+                <input type="text" placeholder="Give your feedback"  size="50px" style="font-size: 20px;">
+                <button style="font-size: 20px; color: black; font-weight: bold; ">Submit</button>
             </form>
 
         </div>
