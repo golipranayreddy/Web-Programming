@@ -1,0 +1,41 @@
+$text: Times New Roman;
+
+%body_Style{
+    font-family: $text;
+    color: black;
+}
+
+.GolkondaFort_body
+{
+    @extend %body_Style;
+}
+
+.GolkondaFort_body
+{
+  background-image: url('GolkondaFort22.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.GolkondaFort_body h1
+{
+    font-size: 100px;
+    text-align: center;
+}
+.GolkondaFort_body h2
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.GolkondaFort_body ol
+{
+    font-size:40px;
+    font-weight: bold;
+}
+.GolkondaFort_body p
+{
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0pt;
+}
